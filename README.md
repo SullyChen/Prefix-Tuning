@@ -14,3 +14,20 @@ We can also do the same task via few-shot prompting of the language model. At th
 - HuggingFace `transformers` (for GPT-2 XL)
 
 Please see the Jupyter notebook in the repository for a detailed explanation and write-up!
+
+## Example
+<ins><b>Original French</b></ins>:
+
+`Cela est fait, en partie, pour répondre aux besoins des sénateurs, qui sont souvent membres de plusieurs comités.`
+
+<ins><b>Ground Truth English</b></ins>:
+
+`This is done, in part, to better accommodate the needs of senators who are often members of several committees.`
+
+<ins><b>GPT-2 XL 3-shot</b></ins>:
+
+`The program is designed to help participants become more involved in their communities.`
+
+<ins><b>GPT-2 XL prefix-tuning</b></ins>:
+
+`This is done for the benefit of the participants, who are members of many different organizations.`
