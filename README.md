@@ -1,4 +1,4 @@
-# Prefix Fine-tuning
+# Prompt Fine-tuning
 This notebook demonstrates an example of [prompt tuning](https://arxiv.org/pdf/2104.08691), where learned embeddings allow for a comparatively low-memory method to fine-tune behavior in a large language model via encoding behavior/information in a small number of embedding tokens. This notebook demonstrates an example of fine-tuning GPT-2 XL to translate from French to English and vice versa. The way this works is essentially as follows: we learn two prefixes, `[start_english]` and `[start_french]`. When we want to translate a French sentence to English, we would input the following prompt to the language model:
 
 `[start_french]Bonjour! Je m'appelle Sully.[start_english]`.
